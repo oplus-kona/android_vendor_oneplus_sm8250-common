@@ -8824,7 +8824,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    soc_specific: true,
+    vendor: true,  // Fixed: was soc_specific (odm) — HAL service is vendor, must match namespace
 }
 
 cc_prebuilt_library_shared {
